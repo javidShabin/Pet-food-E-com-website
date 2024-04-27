@@ -68,7 +68,7 @@ header .wrapper .nav-bar-icons i{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 8vh);
+    height: 100vh;
     position: relative;
 }
 #home .hero-text{
@@ -110,4 +110,52 @@ header .wrapper .nav-bar-icons i{
 /* Categories section */
 .categories{
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categories .wrapper{
+    margin-top: 5rem;
+    
+}
+.categories .wrapper span{
+    color: #ff3e3e;
+}
+.categories .wrapper h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.categories .wrapper .card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.8rem;
+}
+.categories .wrapper .card{
+    margin-top: 3rem;
+    width: 270px;
+    height: 245px;
+    border-radius: 16px;
+}
+
+.categories .wrapper .card-img{
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.categories .wrapper .card-img:hover img{
+    transform: scale(1.1);
+}
+
+.categories .wrapper .card-img img{
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+    border-radius: 16px;
+}
+.categories .wrapper .card-container h3{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
 }

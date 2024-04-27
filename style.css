@@ -159,6 +159,7 @@ header .wrapper .nav-bar-icons i{
     font-weight: 500;
     margin-top: 15px;
     transition: .3s;
+    cursor:  pointer;
 }
 .categories .wrapper .card-container h3:hover{
     color: #ff3e3e;

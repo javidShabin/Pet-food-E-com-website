@@ -300,11 +300,6 @@ header .wrapper .nav-bar-icons i{
 
 .product .wrapper .product-img img{
     width: 100%;
-    height: 100%;
-    
+    height: 100%;  
 }
-.product .wrapper .product-img:hover img{
-    background-image: url("./images/product-1_0.jpg");
-    width: 100%;
-    height: 100%;
-}
+

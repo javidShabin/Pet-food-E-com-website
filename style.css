@@ -165,36 +165,48 @@ header .wrapper .nav-bar-icons i{
     color: #ff3e3e;
 }
 
-.offer-banner{
-    margin-top: 10rem;
-    position: relative;
-}
-.offer-banner img{
-    width: 470px;
+.offer-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.offer-banner .offer-text{
+
+.offer-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.banner-container{
+    margin-top: 10rem;
+    position: relative;
+}
+.banner-container img{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container .offer-text{
     position: absolute;
     bottom: 9rem;
     left: 1.6rem;
 }
-.offer-banner .offer-text p{
+.banner-container .offer-text p{
     font-size: 14px;
     letter-spacing: 1px;
     font-weight: 500;
 }
-.offer-banner .offer-text h3{
+.banner-container .offer-text h3{
     font-size: 35px;
     font-weight: 500;
 }
-.offer-banner .offer-text span{
+.banner-container .offer-text span{
     color: #000;
     font-size: 33px;
     font-weight: 500;
 }
-.offer-banner .offer-text a{
+.banner-container .offer-text a{
     position: absolute;
     top: 8rem;
     padding: 10px 25px;
@@ -203,6 +215,6 @@ header .wrapper .nav-bar-icons i{
     border-radius: 30px;
     transition: .3s;
 }
-.offer-banner .offer-text a:hover{
+.banner-container .offer-text a:hover{
     background-color: #000;
 }

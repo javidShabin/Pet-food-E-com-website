@@ -68,7 +68,7 @@ header .wrapper .nav-bar-icons i{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 8vh);
     position: relative;
 }
 #home .hero-text{
@@ -92,7 +92,22 @@ header .wrapper .nav-bar-icons i{
     margin-top: 2rem;
     font-size: 1.4rem;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 35px;
 }
- 
- 
+#home .hero-text a{
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s;
+}
+#home .hero-text a:hover{
+    background-color: #ff8400;
+    box-shadow: 2px 2px 48px rgb(255, 255, 255);
+}
+/* Categories section */
+.categories{
+    font-family: 'Roboto', sans-serif;
+}

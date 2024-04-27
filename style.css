@@ -158,4 +158,8 @@ header .wrapper .nav-bar-icons i{
     text-align: center;
     font-weight: 500;
     margin-top: 15px;
+    transition: .3s;
+}
+.categories .wrapper .card-container h3:hover{
+    color: #ff3e3e;
 }

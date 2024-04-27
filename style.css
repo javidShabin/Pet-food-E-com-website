@@ -55,7 +55,8 @@ header .wrapper .nav-bar ul li a:hover{
     color: #ffa500;
 }
 header .wrapper .nav-bar-icons i{
-    padding: 5px;
+    font-size: 20px;
+    padding: 7px;
  }
  
  

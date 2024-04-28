@@ -457,6 +457,10 @@ footer .wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+footer .wrapper .logo{
+    margin-top: 3rem;
 }
 footer .wrapper .logo a{
     font-family: "Carter One", system-ui;
@@ -464,7 +468,7 @@ footer .wrapper .logo a{
     color: #fff;
 }
 footer .wrapper .media i{
-    margin-top: 3rem;
+    margin-top: 4rem;
     font-size: 14px;
     padding: 15px;
     background-color: #fff;
@@ -497,4 +501,14 @@ footer .wrapper .container li a{
 }
 footer .wrapper .container li a:hover{
     color: #ff4c11;
+}
+footer .wrapper .footer-cont{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15rem;
+}
+footer .wrapper .footer-cont span{
+    color: #919191;
 }

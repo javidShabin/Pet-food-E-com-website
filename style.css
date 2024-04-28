@@ -328,7 +328,7 @@ header .wrapper .nav-bar-icons i{
     color: #ff4c11;
 }
 .services .wrapper .service-container{
-    margin-top: 40px;
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -336,6 +336,11 @@ header .wrapper .nav-bar-icons i{
     display: flex;
     justify-content: center;
 }
+
+.services .wrapper .service-container .service{
+    margin-left: 15px;
+}
+
 .services .wrapper .service-container .service h3{
     margin-top: 10px;
     font-size: 25px;
@@ -343,8 +348,8 @@ header .wrapper .nav-bar-icons i{
     text-align: center;
 }
 .services .wrapper .service-container .service p{
-    margin-top: 10px;
-
+    margin-top: 9px;
+    line-height: 22px;
     color: #939393;
     text-align: center;
     font-size: 17px;

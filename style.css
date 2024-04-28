@@ -406,3 +406,30 @@ header .wrapper .nav-bar-icons i{
     background-color: #fff;
     color: #000;
 }
+/* Brands section */
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.brands .wrapper{
+    margin-top: 6rem;
+    width: 90%;
+    padding: 0 20rem;
+}
+.brands .wrapper h1{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+.brands .wrapper span{
+    color: #ff4c11;
+}
+.brands .wrapper .img-container{
+    margin-top: 20px;
+}
+.brands .wrapper .img-container img{
+    box-shadow: 2px 2px 48px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}

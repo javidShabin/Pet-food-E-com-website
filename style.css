@@ -437,3 +437,23 @@ header .wrapper .nav-bar-icons i{
     width: 180px;
     height: 150px;
 }
+/* Footer section */
+footer{
+    margin-top: 5px;
+    width: 100%;
+    background-image: url("./images/footer-bg.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .wrapper{
+    width: 90%;
+    padding: 0 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

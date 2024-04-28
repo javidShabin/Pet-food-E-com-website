@@ -451,9 +451,31 @@ footer{
     align-items: center;
 }
 footer .wrapper{
+    margin-top: 15rem;
     width: 90%;
     padding: 0 12rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+footer .wrapper .logo a{
+    font-family: "Carter One", system-ui;
+    font-size: 2.5rem;
+    color: #fff;
+}
+footer .wrapper .icons a{
+    color: #ff8400;
+}
+footer .wrapper .media i{
+    margin-top: 30px;
+    font-size: 14px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: .3s;
+}
+footer .wrapper .media i:hover{
+    background-color: #ff8400;
+    color: #fff;
 }

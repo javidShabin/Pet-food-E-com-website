@@ -3,7 +3,6 @@
     margin: 0;
 	padding: 0;
 	border: 0;
-	background: transparent;
 	text-decoration: none;
     list-style: none;
 	outline: none;
@@ -354,3 +353,15 @@ header .wrapper .nav-bar-icons i{
     text-align: center;
     font-size: 17px;
 }
+/* Guarantee section */
+.guarantee{
+    margin-top: 10rem;
+    background-image: url("./images/cta-bg.jpg");
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* background-image: url("paper.gif"); */

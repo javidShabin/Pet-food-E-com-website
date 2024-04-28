@@ -416,7 +416,7 @@ header .wrapper .nav-bar-icons i{
 .brands .wrapper{
     margin-top: 6rem;
     width: 90%;
-    padding: 0 20rem;
+    padding: 0 12rem;
 }
 .brands .wrapper h1{
     font-size: 38px;
@@ -427,9 +427,13 @@ header .wrapper .nav-bar-icons i{
     color: #ff4c11;
 }
 .brands .wrapper .img-container{
-    margin-top: 20px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .brands .wrapper .img-container img{
     box-shadow: 2px 2px 48px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
+    width: 180px;
+    height: 150px;
 }
